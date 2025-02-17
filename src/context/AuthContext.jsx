@@ -18,8 +18,8 @@ export function AuthContextProvider({ children }) {
   //retorna uma promise
   function googleSignIn() {
     const provider = new GoogleAuthProvider(); // Cria uma instância do provedor Google
-    //signInWithPopup(auth, provider)// Abre um pop-up para login com Google
-    signInWithPopup(auth, provider); // this is the better option when sealing with mobile
+    signInWithPopup(auth, provider)// Abre um pop-up para login com Google
+    //signInWithRedirect(auth, provider); // this is the better option when sealing with mobile
   }
 
   function logOut() {

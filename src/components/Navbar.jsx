@@ -10,7 +10,7 @@ const style = {
 
 export default function Navbar() {
     const {user} = UserAuth()
-    console.log(user)
+    
   return (
     <div className={style.nav}>
         <h1 className={style.heading}>

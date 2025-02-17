@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+import Chat from "./components/Chat";
 import Navbar from "./components/Navbar";
 import { auth } from "./config/firebase-config";
 
@@ -14,6 +15,7 @@ function App() {
         {/* Navbar */}
         <Navbar />
         {/* Chat */}
+        <Chat/>
       </section>
     </div>
   );
